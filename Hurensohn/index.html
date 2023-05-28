@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RandomHome</title>
+    <style>
+      :root {
+        --primary-color: rgb(63, 63, 63);
+      }
+      body {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      .frame {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 30fr 70fr;
+        grid-template-rows: 25fr 50fr 25fr;
+      }
+      .box {
+        margin: 10px;
+        background-color: gold;
+        text-align: center;
+        border: 12px solid rgba(33, 165, 33, 0.664);
+      }
+      .box-a {
+        grid-column: 1 / span 2;
+        color: red;
+        font-size: 2rem;
+      }
+      .box-b {
+        display: flex;
+        flex-direction: column;
+      }
+      .list {
+        height: 20%;
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding: 30px;
+        color: var(--primary-color);
+        text-decoration: none;
+        /*!!!!!!ADD BACKGROUND PICTURES!!!!!!!!!!!!!*/
+      }
+      .list:hover {
+        text-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.664);
+        color: black;
+      }
+      .box-d {
+        grid-column: 1 / span 2;
+      }
+      iframe {
+        width: 50%;
+        height: 20rem;
+        border: 12px solid rgba(33, 165, 33, 0.664);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="box box-a">
+        <a class="box-a" href="/TrainingProject/Random.html"
+          ><h1>HURENSOHN</h1>
+        </a>
+      </div>
+      <div class="box box-b">
+        <a class="list" href="#"><p>Boards</p></a>
+        <a class="list" href="#"><p>Shoes</p></a>
+        <a class="list" href="#"><p>Aparell</p></a>
+        <a class="list" href="#"><p>Accessoirs</p></a>
+        <a class="list" href="#"><p>Stickers</p></a>
+      </div>
+      <div class="box box-c">
+        <h2>Main</h2>
+        <iframe src="./LeoCarlo.jpg" scrolling="no"></iframe>
+      </div>
+      <div class="box box-d">
+        <a href="#">Back to the top</a>
+      </div>
+    </div>
+  </body>
+</html>
