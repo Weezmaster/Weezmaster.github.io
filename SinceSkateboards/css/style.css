@@ -312,25 +312,25 @@ footer{
     }
 }
 
-@media (hover:hover) {
+
     .gal-pic:hover 
     {
         transform: scale(1.5);
         padding: 5rem;   
     }
    
-    .pic-left:hover{
+    .pic-left:hover
+    {
         margin-left: -5rem;
     }
-  
-}
 
-@media (hover:none){
-    .gal-pic:active{
+
+    .gal-pic:hover, .gal-pic:active
+    {
         transform: scale(2);
         padding: 2rem;
     }
-    .pic-left:active{
+    .gal-pic:hover, .pic-left:active
+    {
         margin-left: -3rem;
     }
-}
