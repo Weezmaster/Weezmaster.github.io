@@ -289,3 +289,41 @@ footer{
 .snap-inline > *{
     scroll-snap-align: start;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-items: center;
+    max-width: 100vw;
+}
+
+/*Sprite Gallery*/
+.gal-pic{
+    height: 6rem;
+    width: 6rem;
+    transition: all 0.3s;
+}
+@media screen and (min-width: 786px) {
+    .gal-pic{
+        height: 22rem;
+        width: 22rem;
+    }
+}
+
+.gal-pic:hover 
+{
+    transform: scale(1.5);
+    padding: 5rem;   
+}
+.gal-pic:active{
+    transform: scale(1.5);
+    padding: 2rem;
+}
+
+.pic-left:hover{
+    margin-left: -5rem;
+}
+.pic-left:active{
+    margin-left: -3rem;
+}
