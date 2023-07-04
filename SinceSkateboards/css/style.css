@@ -330,7 +330,7 @@ footer{
     }
 }
 
-@media (hover: none){
+@media (hover:none){
     .gal-pic:hover 
     {
         transform: scale(1);
