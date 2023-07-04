@@ -325,12 +325,12 @@ footer{
     }
 
 
-    .gal-pic:hover, .gal-pic:active
+    .gal-pic:hover, .gal-pic:focus, .gal-pic:active
     {
         transform: scale(2);
         padding: 2rem;
     }
-    .gal-pic:hover, .pic-left:active
+    .gal-pic:hover, .gal-pic:focus, .pic-left:active
     {
         margin-left: -3rem;
     }
