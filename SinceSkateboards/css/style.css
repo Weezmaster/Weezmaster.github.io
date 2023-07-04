@@ -317,14 +317,14 @@ footer{
     transform: scale(1.5);
     padding: 5rem;   
 }
-.gal-pic:active{
-    transform: scale(1.5);
+.gal-pic:hover, .gal-pic:active{
+    transform: scale(2);
     padding: 2rem;
 }
 
 .pic-left:hover{
     margin-left: -5rem;
 }
-.pic-left:active{
+.gal-pic:hover, .pic-left:active{
     margin-left: -3rem;
 }
