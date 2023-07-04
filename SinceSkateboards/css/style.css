@@ -74,7 +74,11 @@ iframe{
 .icons:hover{
     box-shadow: 0 0 5px 1px #4444446b;
 }
-
+.chevron{
+    color: black;
+    background-color: rgb(218, 218, 218);
+}
+/*Logo*/
 .logo{
     width: 90px;
     height: 90px;
@@ -312,25 +316,23 @@ footer{
     }
 }
 
-
-    .gal-pic:hover 
+.gal-pic:hover 
     {
         transform: scale(1.5);
         padding: 5rem;   
     }
    
-    .pic-left:hover
+.pic-left:hover
     {
         margin-left: -5rem;
     }
 
-
-    .gal-pic:hover, .gal-pic:focus, .gal-pic:active
+.gal-pic:hover, .gal-pic:focus, .gal-pic:active
     {
         transform: scale(2);
         padding: 2rem;
     }
-    .gal-pic:hover, .gal-pic:focus, .pic-left:active
+.gal-pic:hover, .gal-pic:focus, .pic-left:active
     {
         margin-left: -3rem;
     }
