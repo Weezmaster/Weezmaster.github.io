@@ -316,23 +316,19 @@ footer{
     }
 }
 
-.gal-pic:hover 
-    {
-        transform: scale(1.5);
-        padding: 5rem;   
-    }
-   
-.pic-left:hover
+.gal-pic:hover
+{
+    transform: scale(1.5);
+}
+.gal-pic:active
+{
+    transform: scale(1.83);
+}
+.pic-left:hover, .pic-left:active
     {
         margin-left: -5rem;
     }
-
-.gal-pic:hover, .gal-pic:focus, .gal-pic:active
+.pic-right:hover, .pic-right:active
     {
-        transform: scale(2);
-        padding: 2rem;
-    }
-.gal-pic:hover, .gal-pic:focus, .pic-left:active
-    {
-        margin-left: -3rem;
+        margin-right: -5rem;
     }
