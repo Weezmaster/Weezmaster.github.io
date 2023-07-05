@@ -74,9 +74,15 @@ iframe{
 .icons:hover{
     box-shadow: 0 0 5px 1px #4444446b;
 }
+/*Make Shevron dissapear after clicked once and only for big screens visible*/
 .chevron{
-    color: black;
+    fill: green;
     background-color: rgb(218, 218, 218);
+}
+@media screen and (max-width: 768px) {
+    .chevron{
+        display: none;
+    }
 }
 /*Logo*/
 .logo{
