@@ -325,11 +325,11 @@ footer{
 .gal-pic:hover
 {
     transform: scale(1.5);
-}
+}/*
 .gal-pic:active
 {
     transform: scale(1.83);
-}
+}*/
 .pic-left:hover, .pic-left:active
     {
         margin-left: -5rem;
