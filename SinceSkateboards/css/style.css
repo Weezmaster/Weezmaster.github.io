@@ -58,8 +58,8 @@ iframe{
 }
 @media screen and (min-width: 786px) {
     .icons{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 50px;
 }
 }
 .icon-container {
@@ -85,8 +85,6 @@ iframe{
 }
 .chevronRight{transform: rotate(270deg);
 }
-
-/*KEEEP CHECKING CHEVRONS FOR CORRECT POSITION AND COLR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 @media screen and (max-width: 768px) {
