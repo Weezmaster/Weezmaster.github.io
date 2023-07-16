@@ -88,8 +88,9 @@ iframe{
 
 
 @media screen and (max-width: 768px) {
-    .chevro{
+    .chevron{
         display: none;
+        width: 0%;
     }
 }
 .scroll{
