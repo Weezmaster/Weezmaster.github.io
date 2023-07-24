@@ -266,7 +266,8 @@ a>li:hover{
 }
 
 .ImgDog{
-    width: 80% ;
+    width: 80%;
+    margin-bottom: 2rem;
 }
 .ImgBoard{
     max-width: 100%;
