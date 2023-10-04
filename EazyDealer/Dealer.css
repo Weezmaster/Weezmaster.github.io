@@ -16,8 +16,9 @@ h3{
 }
 h1{
     background: linear-gradient(110deg, rgb(94, 94, 94) 30%, rgba(28,27,36,1) 57%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 .frame{
     border: 2px solid rgb(187, 187, 187);
