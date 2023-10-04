@@ -1,0 +1,100 @@
+body{
+    font-family: Germania One;
+    text-align: center;
+}
+h1{
+    font-size: 4rem !important;
+    margin: 1rem !important;
+}
+h2{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+h3{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+h1{
+    background: linear-gradient(110deg, rgb(94, 94, 94) 30%, rgba(28,27,36,1) 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.frame{
+    border: 2px solid rgb(187, 187, 187);
+    margin: 1rem 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background: rgb(227,229,246);
+    background: linear-gradient(120deg, rgba(227,229,246,1) 0%, rgb(78, 78, 211) 77%);
+    }
+
+@media screen and (max-width: 768px){
+.frame{
+    position: absolute;
+    margin: 0.5rem 0.5rem;
+}
+}
+
+
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 786px) {
+.input{display: block;}
+}
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+
+*:focus {
+    outline: none;
+}
+.calc
+{   place-content: center;
+    margin: 1rem;
+}
+.result{
+    height: 4rem;
+    width: 10rem;
+    font-size: 3rem;
+    text-align: center;
+}
+textarea{
+    text-align: center;
+    height: 1rem;
+    width: 5rem;
+    overflow: hidden;
+    resize: none;
+    border-radius: 5px;
+}
+textarea::-webkit-scrollbar {
+    display: none;
+ }
+.Instructions{
+    border: solid black 2px;
+    padding: 1rem 1rem;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.btn{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    background: rgb(78, 78, 211);
+    border: solid rgb(78, 78, 211) 1px;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    border: solid rgb(36, 36, 128) 1px;
+    border-radius: 5px; 
+}
+.btn:active{
+    background: rgb(52, 52, 155);
+}
+a{
+    text-decoration: none;
+}

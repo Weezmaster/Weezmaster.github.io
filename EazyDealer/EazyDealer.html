@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SelfTestJS/Dealer.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+    <title>Eazy Dealer</title>
+</head>
+<body>
+    <div class="frame">
+        <a href="/SelfTestJS/EazyDealer.html"><h1>Eazy Dealer</h1></a>  
+        <h3 class="Instructions"> Type in 2 Values!</h3>
+        <span class="input">
+            <div class="inAmt">
+                <h3>Grams:</h3>
+                <input type="text" id="grams" onkeyup="disableText()">
+            </div>
+            <div class="inPri">
+                <h3>Price</h3>
+                <input type="text" id="price" onkeyup="disableText()">
+            </div>
+            <div class="inCur">
+                <h3>Course</h3>
+                <input type="text" id="course" onkeyup="disableText()">
+            </div>
+        </span>
+    <div class="calc">
+    </div>
+    <div class="bottom">
+        <button class="btn" onclick="CourseFunction()">Go</button>
+        <h2 id="resum">Result</h2>
+        <input type="text" id="result" class="result" readonly placeholder="420">
+    </div>
+    <br><br>
+    <textarea name="calculation" id="calc" cols="30" rows="2" readonly placeholder="Calculation process" ></textarea>
+    </div>
+    <script src="EazyDealer.js"></script>
+</body>
+</html>
