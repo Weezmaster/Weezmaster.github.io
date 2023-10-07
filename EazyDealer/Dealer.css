@@ -36,7 +36,6 @@ h1{
 }
 }
 
-
 .input{
     display: flex;
     justify-content: space-around;
@@ -75,11 +74,21 @@ textarea::-webkit-scrollbar {
  }
 .Instructions{
     border: solid black 2px;
-    padding: 1rem 1rem;
+    padding: 1rem;
     display: inline-block;
     border-radius: 10px;
 
 }
+
+@media screen and (max-width: 768px){
+    .Instructions{
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    }
+    h3{margin: 0.2rem;}
+    }
+    
+
 .btn{
     width: 5rem;
     height: 3rem;
