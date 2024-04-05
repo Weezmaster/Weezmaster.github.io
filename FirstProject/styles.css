@@ -1,3 +1,8 @@
+html{
+  font-size: 62.5%;
+
+}
+
 :root{
   --color-primary:#254D32;
   --color-secondary:#3A7D44;
@@ -8,18 +13,37 @@
 
 body{
   font-family: Rubik,Helvetica,sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
   color: var(var(--color-body));
 }
 h1,h2,h3{
   color: var(--color-headings);
+  margin-bottom: 1rem;
 }
-/*
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 900
 
-.rubik-<uniquifier> {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}/*
+h1{
+  font-size: 7rem;
+}
+h2{
+  font-size: 4rem;
+}
+h3{
+  font-size: 3rem;
+  
+}
+p{
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px){
+  h1{
+    font-size: 8rem;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  h3{
+    font-size: 2.4rem;
+    
+}}
