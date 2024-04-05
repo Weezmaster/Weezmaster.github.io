@@ -1,5 +1,9 @@
-body{
-    background-color: gold;
+:root{
+  --color-primary:#254D32;
+  --color-secondary:#3A7D44;
+  --color-accent: #d3b42b;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
 }
 /*
 // <uniquifier>: Use a unique and descriptive class name
