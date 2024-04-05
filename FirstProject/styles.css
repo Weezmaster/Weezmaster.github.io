@@ -5,6 +5,14 @@
   --color-headings: #1b0760;
   --color-body: #918ca4;
 }
+
+body{
+  font-family: Rubik,Helvetica,sans-serif;
+  color: var(var(--color-body));
+}
+h1,h2,h3{
+  color: var(--color-headings);
+}
 /*
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 900
